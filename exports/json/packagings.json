@@ -1,0 +1,42 @@
+[
+  {
+    "packaging_id": "PKG-001",
+    "packaging_type": "VIP_PCM_CHILLED",
+    "insulation_type": "Vacuum Insulated Panels (VIP)",
+    "refrigerant_type": "Phase Change Material (+5\u00b0C organic paraffin)",
+    "rated_protection_hours": 96,
+    "tare_weight_kg": 14.5,
+    "max_payload_volume_l": 25.0,
+    "validated_ambient_max_c": 35.0
+  },
+  {
+    "packaging_id": "PKG-002",
+    "packaging_type": "DRY_ICE_DEEP_FROZEN",
+    "insulation_type": "VIP with Polyurethane Shell",
+    "refrigerant_type": "Dry Ice Pellets (Solid CO2 -78.5\u00b0C)",
+    "rated_protection_hours": 120,
+    "tare_weight_kg": 22.0,
+    "max_payload_volume_l": 18.0,
+    "validated_ambient_max_c": 40.0
+  },
+  {
+    "packaging_id": "PKG-003",
+    "packaging_type": "ACTIVE_RKN_E2",
+    "insulation_type": "Active Compressor & Heating System",
+    "refrigerant_type": "Active R134a Compressor + Heat Exchanger",
+    "rated_protection_hours": 144,
+    "tare_weight_kg": 650.0,
+    "max_payload_volume_l": 1500.0,
+    "validated_ambient_max_c": 45.0
+  },
+  {
+    "packaging_id": "PKG-004",
+    "packaging_type": "EPS_GEL_PACK_STANDARD",
+    "insulation_type": "Expanded Polystyrene Foam (EPS)",
+    "refrigerant_type": "Water-based Ice Gel Packs (0\u00b0C)",
+    "rated_protection_hours": 48,
+    "tare_weight_kg": 8.5,
+    "max_payload_volume_l": 15.0,
+    "validated_ambient_max_c": 30.0
+  }
+]

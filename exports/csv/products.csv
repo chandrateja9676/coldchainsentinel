@@ -1,0 +1,7 @@
+product_id,product_name,therapeutic_class,storage_band,standard_min_temp_c,standard_max_temp_c,critical_freeze_point_c,shelf_life_days,manufacturer
+PRD-001,Comirna-mRNA Ultra,MRNA_VACCINE,ULTRA_COLD,-80.0,-60.0,-95.0,270,BioNTech-Pfizer Alliance
+PRD-002,OncoMab-Hercept 150mg,MONOCLONAL_ANTIBODY,REFRIGERATED,2.0,8.0,0.0,730,Roche Diagnostics
+PRD-003,NovoRapid FlexPen Insulin,INSULIN_ANALOG,REFRIGERATED,2.0,8.0,0.0,540,Novo Nordisk A/S
+PRD-004,Kymriah Autologous CAR-T,CELL_THERAPY,ULTRA_COLD,-85.0,-70.0,-120.0,180,Novartis Pharma AG
+PRD-005,Octapharma Fresh Frozen Plasma,BLOOD_PLASMA,FROZEN,-25.0,-18.0,-35.0,365,Octapharma AG
+PRD-006,Humira Adalimumab 40mg,MONOCLONAL_ANTIBODY,REFRIGERATED,2.0,8.0,0.0,730,AbbVie Inc.

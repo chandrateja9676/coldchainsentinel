@@ -1,0 +1,68 @@
+[
+  {
+    "product_id": "PRD-001",
+    "product_name": "Comirna-mRNA Ultra",
+    "therapeutic_class": "MRNA_VACCINE",
+    "storage_band": "ULTRA_COLD",
+    "standard_min_temp_c": -80.0,
+    "standard_max_temp_c": -60.0,
+    "critical_freeze_point_c": -95.0,
+    "shelf_life_days": 270,
+    "manufacturer": "BioNTech-Pfizer Alliance"
+  },
+  {
+    "product_id": "PRD-002",
+    "product_name": "OncoMab-Hercept 150mg",
+    "therapeutic_class": "MONOCLONAL_ANTIBODY",
+    "storage_band": "REFRIGERATED",
+    "standard_min_temp_c": 2.0,
+    "standard_max_temp_c": 8.0,
+    "critical_freeze_point_c": 0.0,
+    "shelf_life_days": 730,
+    "manufacturer": "Roche Diagnostics"
+  },
+  {
+    "product_id": "PRD-003",
+    "product_name": "NovoRapid FlexPen Insulin",
+    "therapeutic_class": "INSULIN_ANALOG",
+    "storage_band": "REFRIGERATED",
+    "standard_min_temp_c": 2.0,
+    "standard_max_temp_c": 8.0,
+    "critical_freeze_point_c": 0.0,
+    "shelf_life_days": 540,
+    "manufacturer": "Novo Nordisk A/S"
+  },
+  {
+    "product_id": "PRD-004",
+    "product_name": "Kymriah Autologous CAR-T",
+    "therapeutic_class": "CELL_THERAPY",
+    "storage_band": "ULTRA_COLD",
+    "standard_min_temp_c": -85.0,
+    "standard_max_temp_c": -70.0,
+    "critical_freeze_point_c": -120.0,
+    "shelf_life_days": 180,
+    "manufacturer": "Novartis Pharma AG"
+  },
+  {
+    "product_id": "PRD-005",
+    "product_name": "Octapharma Fresh Frozen Plasma",
+    "therapeutic_class": "BLOOD_PLASMA",
+    "storage_band": "FROZEN",
+    "standard_min_temp_c": -25.0,
+    "standard_max_temp_c": -18.0,
+    "critical_freeze_point_c": -35.0,
+    "shelf_life_days": 365,
+    "manufacturer": "Octapharma AG"
+  },
+  {
+    "product_id": "PRD-006",
+    "product_name": "Humira Adalimumab 40mg",
+    "therapeutic_class": "MONOCLONAL_ANTIBODY",
+    "storage_band": "REFRIGERATED",
+    "standard_min_temp_c": 2.0,
+    "standard_max_temp_c": 8.0,
+    "critical_freeze_point_c": 0.0,
+    "shelf_life_days": 730,
+    "manufacturer": "AbbVie Inc."
+  }
+]

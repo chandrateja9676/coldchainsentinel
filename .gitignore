@@ -1,0 +1,89 @@
+# ==========================================
+# ColdChain Sentinel — Git Ignore Specification
+# ==========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Unit test / coverage reporting
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Local databases & Large generated export dumps (Exceeding GitHub 100MB limit)
+# Note: All data is deterministically regenerated on-demand via `python cli.py generate`
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+exports/csv/temperature_readings.csv
+exports/json/temperature_readings.json
+
+# Streamlit local settings & credentials
+.streamlit/secrets.toml
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Temporary and Scratch Directories
+tmp/
+temp/
+scratch/
+*.log

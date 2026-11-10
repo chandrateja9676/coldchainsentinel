@@ -1,0 +1,29 @@
+{
+  "system": "ColdChain Sentinel",
+  "version": "1.0.0",
+  "generation_timestamp": "2026-11-10T09:37:00Z",
+  "deterministic_seed": 20261022,
+  "sampling_frequency_minutes": 10,
+  "standards_compliance": [
+    "FDA 21 CFR Part 11 (Electronic Records & Signatures)",
+    "USP <1079> Good Storage and Distribution Practices",
+    "EU Good Distribution Practice (GDP 2013/C 343/01)",
+    "WHO Technical Report Series No. 961"
+  ],
+  "generator_command": "python cli.py generate --seed 20261022 --scale starter --export csv,json,sql",
+  "entities": {
+    "products": { "file_csv": "exports/csv/products.csv", "file_json": "exports/json/products.json", "primary_key": "product_id" },
+    "lots": { "file_csv": "exports/csv/lots.csv", "file_json": "exports/json/lots.json", "primary_key": "lot_id" },
+    "packagings": { "file_csv": "exports/csv/packagings.csv", "file_json": "exports/json/packagings.json", "primary_key": "packaging_id" },
+    "loggers": { "file_csv": "exports/csv/loggers.csv", "file_json": "exports/json/loggers.json", "primary_key": "logger_id" },
+    "policies": { "file_csv": "exports/csv/policies.csv", "file_json": "exports/json/policies.json", "primary_key": "policy_id" },
+    "shipments": { "file_csv": "exports/csv/shipments.csv", "file_json": "exports/json/shipments.json", "primary_key": "shipment_id" },
+    "shipment_lots": { "file_csv": "exports/csv/shipment_lots.csv", "file_json": "exports/json/shipment_lots.json", "primary_key": "bridge_id" },
+    "route_stops": { "file_csv": "exports/csv/route_stops.csv", "file_json": "exports/json/route_stops.json", "primary_key": "stop_id" },
+    "custody_events": { "file_csv": "exports/csv/custody_events.csv", "file_json": "exports/json/custody_events.json", "primary_key": "custody_id" },
+    "temperature_readings": { "file_csv": "exports/csv/temperature_readings.csv", "file_json": "exports/json/temperature_readings.json", "primary_key": "reading_id" },
+    "excursion_reports": { "file_csv": "exports/csv/excursion_reports.csv", "file_json": "exports/json/excursion_reports.json", "primary_key": "report_id" },
+    "ground_truth": { "file_csv": "exports/csv/ground_truth.csv", "file_json": "exports/json/ground_truth.json", "primary_key": "anomaly_id" }
+  },
+  "sqlite_database": "coldchain.db"
+}

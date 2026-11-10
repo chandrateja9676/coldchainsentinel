@@ -1,0 +1,7 @@
+policy_id,product_id,route_type,min_temp_c,max_temp_c,critical_freeze_temp_c,critical_spike_temp_c,max_cumulative_excursion_mins,max_single_excursion_mins,mkt_upper_limit_c,allowed_gap_tolerance_mins
+POL-001,PRD-001,GLOBAL_AIR_EXPEDITE,-80.0,-60.0,-95.0,-45.0,60,30,-62.0,30
+POL-002,PRD-002,PHARMA_COLD_EXPRESS,2.0,8.0,0.0,15.0,120,60,8.0,30
+POL-003,PRD-003,PHARMA_COLD_EXPRESS,2.0,8.0,0.0,15.0,120,60,8.0,30
+POL-004,PRD-004,GLOBAL_AIR_EXPEDITE,-80.0,-60.0,-95.0,-45.0,60,30,-62.0,30
+POL-005,PRD-005,CROSS_BORDER_REEFER,-25.0,-15.0,-35.0,-10.0,120,45,-16.0,30
+POL-006,PRD-006,PHARMA_COLD_EXPRESS,2.0,8.0,0.0,15.0,120,60,8.0,30

@@ -1,0 +1,5 @@
+packaging_id,packaging_type,insulation_type,refrigerant_type,rated_protection_hours,tare_weight_kg,max_payload_volume_l,validated_ambient_max_c
+PKG-001,VIP_PCM_CHILLED,Vacuum Insulated Panels (VIP),Phase Change Material (+5°C organic paraffin),96,14.5,25.0,35.0
+PKG-002,DRY_ICE_DEEP_FROZEN,VIP with Polyurethane Shell,Dry Ice Pellets (Solid CO2 -78.5°C),120,22.0,18.0,40.0
+PKG-003,ACTIVE_RKN_E2,Active Compressor & Heating System,Active R134a Compressor + Heat Exchanger,144,650.0,1500.0,45.0
+PKG-004,EPS_GEL_PACK_STANDARD,Expanded Polystyrene Foam (EPS),Water-based Ice Gel Packs (0°C),48,8.5,15.0,30.0
